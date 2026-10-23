@@ -27,7 +27,6 @@ jobs:
           pip install -r requirements.txt 
 
 
- 
 
       - name: Train and save model
         run: |
