@@ -17,6 +17,10 @@ venv/
 ENV/
 *.env
 
+# --- Models and Data ----
+/data/
+/models/
+
 # --- Jupyter and notebooks ---
 .ipynb_checkpoints/
 *.nbconvert.ipynb
