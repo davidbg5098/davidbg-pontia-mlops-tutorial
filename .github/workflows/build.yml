@@ -20,7 +20,7 @@ jobs:
       AZURE_TENANT_ID: ${{ secrets.AZURE_TENANT_ID }}
 
       EXPERIMENT_NAME: ${{ vars.EXPERIMENT_NAME }}
-      MLFLOW_URL: ${{ vars.MLFLOW_URI }}
+      MLFLOW_URI: ${{ vars.MLFLOW_URI }}
 
     steps:      
       - name: Checkout code
